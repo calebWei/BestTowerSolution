@@ -15,5 +15,6 @@ Download `main.exe` from the latest release, and run `./main.exe [farm_id]`
 
 Current hypothesis:
 - The object is set to private access
+- IAM Policy
 - The presigned URLs are missing appropriate credentials
 - The presigned URLs already expired (?)
