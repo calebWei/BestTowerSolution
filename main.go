@@ -22,7 +22,7 @@ func main() {
 	// Check the farm ID is supplied as argument
 	args := os.Args
 	if len(args) != 2 {
-		fmt.Println("Invalid arguments, please supply the farm ID as argument, example:\ngo run ./main.go [farm_id]")
+		fmt.Println("Invalid arguments, please supply the farm ID as argument, example:\n./main.exe [farm_id]")
 		os.Exit(-1)
 	}
 	urlArray := getURLs(defaultURL)
@@ -102,11 +102,11 @@ func getCSVData(url string, farmID string) (map[string]*TowerData, error) {
 		fmt.Println(error)
 	}
 
-	request.Header.Set("X-Amz-Security-Token", "userAgent")
+	//request.Header.Set("X-Amz-Security-Token", "test")
 
 	client := &http.Client{}
 	resp, error := client.Do(request)
-	fmt.Println(resp.Header)
+	//fmt.Println(resp.Header)
 
 	// Read CSV
 	reader := csv.NewReader(resp.Body)
