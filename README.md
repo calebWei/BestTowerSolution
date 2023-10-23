@@ -1,4 +1,7 @@
 # BestTowerSolution
+- Given the farm ID, find the tower in the farm with the highest average RSSI
+- Decided to try Golang for the first time
+
 ## Instruction to run
 Download `main.exe` from the latest release, and run `./main.exe [farm_id]`
 ![image](https://github.com/calebWei/BestTowerSolution/assets/100410646/45dbf30a-8dc8-474a-813b-468c5ccb9032)
