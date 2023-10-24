@@ -13,6 +13,7 @@ Download `main.exe` from the latest release, and run `./main.exe [farm_id]`
 - User agent attribute in request header (most likely unrelated)
 - Capturing packets with Wireshark (Don't think the issue can be seen from this view)
 - Examining differences in request/response headers
+- AWS CLI
 
 Current hypothesis:
 - The object is not publicly accessible
