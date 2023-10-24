@@ -4,8 +4,8 @@
 
 ## Instruction to run
 Download `main.exe` from the latest release, and run `./main.exe [farm_id]`
-![image](https://github.com/calebWei/BestTowerSolution/assets/100410646/fb287d84-b839-4782-9b4b-55643edc5843)
 
+![image](https://github.com/calebWei/BestTowerSolution/assets/100410646/fb287d84-b839-4782-9b4b-55643edc5843)
 
 ## Attempts to resolve the `Access Denied` Issue
 - Attempted to spot any problem with the URL itself
