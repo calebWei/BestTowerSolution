@@ -83,7 +83,7 @@ func getAllCSVData(urlArray []string, farmID string) map[string]*TowerData {
 		// Merge tower data into one map
 		allTowerData = mergeMaps(allTowerData, towerData)
 	}
-	fmt.Print((len(urlArray) - errorCnt), " out of ", len(urlArray), "CSV files were successfully retrieved.\n\n")
+	fmt.Print((len(urlArray) - errorCnt), " out of ", len(urlArray), " CSV files were successfully retrieved.\n\n")
 
 	// Check there is at least 1 farm ID match
 	if len(allTowerData) == 0 {
